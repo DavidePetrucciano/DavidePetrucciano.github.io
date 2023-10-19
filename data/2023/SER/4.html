@@ -1,2 +1,54 @@
 <h1>SER lezione 4</h1>
 <p>Questa &egrave; la quarta lezione!</p>
+
+
+    <h1>Modalità di Trasmissione e Commutazione in Reti di Computer</h1>
+
+    <h2>Modalità di Trasmissione:</h2>
+    <ol>
+        <li><strong>Simplex:</strong>
+            <ul>
+                <li>La comunicazione avviene in una sola direzione.</li>
+                <li>Esempio: Radio FM, in cui la stazione trasmette e gli ascoltatori ricevono.</li>
+            </ul>
+        </li>
+        <li><strong>Half Duplex:</strong>
+            <ul>
+                <li>Entrambi gli endpoint possono comunicare, ma solo uno alla volta.</li>
+                <li>Deve essere concesso un canale libero per la trasmissione dati in una direzione.</li>
+                <li>Esempio: Talkie Walkie, dove devi premere un pulsante per parlare e rilasciarlo per ascoltare.</li>
+            </ul>
+        </li>
+        <li><strong>Full Duplex:</strong>
+            <ul>
+                <li>Entrambi gli endpoint possono comunicare in entrambe le direzioni contemporaneamente.</li>
+                <li>Esempio: Telefonia tradizionale o una videochiamata in cui entrambe le parti possono parlare contemporaneamente.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>Modalità di Commutazione:</h2>
+    <ol>
+        <li><strong>Commutazione a Circuito:</strong>
+            <ul>
+                <li>In una rete a commutazione a circuito, una connessione viene stabilita prima che inizi la trasmissione dei dati e rimane attiva per tutta la durata della comunicazione.</li>
+                <li><strong>Vantaggi:</strong> Banda di trasmissione garantita.</li>
+                <li><strong>Svantaggi:</strong> Costosa e spreca risorse, poiché la connessione è attiva anche se non vi è trasmissione attiva.</li>
+            </ul>
+        </li>
+        <li><strong>Commutazione a Pacchetto:</strong>
+            <ul>
+                <li>I dati sono suddivisi in pacchetti che viaggiano indipendentemente attraverso la rete.</li>
+                <li><strong>Vantaggi:</strong> Efficienza nella gestione delle risorse di rete e gestione di elevati volumi di dati.</li>
+                <li><strong>Svantaggi:</strong> Variabilità nel ritardo (jitter) e banda non garantita, che può essere problematica per applicazioni in tempo reale.</li>
+            </ul>
+        </li>
+        <li><strong>Commutazione a Circuito Virtuale:</strong>
+            <ul>
+                <li>Questo approccio offre un servizio orientato alla connessione.</li>
+                <li>Prima dell'inizio della comunicazione, viene stabilito un percorso o "circuito virtuale" attraverso la rete che tutti i pacchetti seguiranno.</li>
+                <li><strong>Vantaggi:</strong> Maggiore prevedibilità e affidabilità nella trasmissione dei dati, con una quantità di banda garantita.</li>
+                <li><strong>Svantaggi:</strong> Meno flessibilità e resilienza rispetto alla commutazione a pacchetto, poiché guasti lungo il percorso possono interrompere la comunicazione.</li>
+            </ul>
+        </li>
+    </ol>
